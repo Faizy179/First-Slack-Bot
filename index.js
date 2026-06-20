@@ -8,8 +8,8 @@ const app = new App({
   socketMode: true
 });
 const riddles = [
-    {q:"I am an odd number . Take away a letter and I become even. What number am I", a:"Seven"},
-    {q: "What has hands but can not clap", a: "A clock"}
+    {q:"I am an odd number . Take away a letter and I become even. What number am I", a:"seven"},
+    {q: "What has hands but can not clap", a: "a clock"}
 ];
 const axios = require("axios");
 let currentRiddle = null;
