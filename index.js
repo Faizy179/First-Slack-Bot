@@ -8,8 +8,8 @@ const app = new App({
   socketMode: true
 });
 const riddles = [
-    {q:"I am the first riddle", a:"answer"},
-    {q: "I am the second riddle", a: "answer"}
+    {q:"I am an odd number . Take away a letter and I become even. What number am I", a:"Seven"},
+    {q: "What has hands but can not clap", a: "A clock"}
 ];
 const axios = require("axios");
 let currentRiddle = null;
@@ -17,7 +17,7 @@ app.command("/the-goat-riddle", async ({ command, ack, respond }) =>
 {
     await ack();
     currentRiddle = riddles[Math.floor(Math.random() * riddles.length)];
-    await respond(`*Here is your riddle:*\n${currentRiddle.q}\n\n_Type \`/guess [your answer]\` to solve it!_`);
+    await respond(`*Here is your riddle:*\n${currentRiddle.q}\n\n_Type \`/the-goat-guess [your answer]\` to solve it!_`);
 }
 
 );
