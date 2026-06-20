@@ -10,7 +10,6 @@ A fun, interactive Slack bot built with Node.js and the Slack Bolt framework. It
 *  **/the-goat-help** -- displays a list of available commands
 
 ## ----- Tech Stack ------
-* **Node.js** - The runtime enviorment
-* **[@slack/bolt]** - The official slack javascript framework
-* **systemd** - used for 24/7 background task management
-
+*  **Node.js** - The runtime enviorment
+*  **[@slack/bolt]** - The official slack javascript framework
+*  **systemd** - used for 24/7 background task management
