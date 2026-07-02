@@ -9,7 +9,11 @@ const app = new App({
 });
 const riddles = [
     {q:"I am an odd number . Take away a letter and I become even. What number am I", a:"seven"},
-    {q: "What has hands but can not clap", a: "a clock"}
+    {q: "What has hands but can not clap", a: "a clock"},
+    {q: "What has a head and a tail but no body", a: "a coin"},
+    {q: "What has to be broken before you can use it", a: "an egg"},
+    {q: "What has many keys but can not open a single lock", a: "a piano"},
+    {q: "What is always in front of you but can not be seen", a: "the future"}
 ];
 const axios = require("axios");
 let currentRiddle = null;
